@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCell" id="gTV-IL-0wX" customClass="ProductCell" customModule="APPeNTUS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="134" height="196"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="134" height="196"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="netWork" translatesAutoresizingMaskIntoConstraints="NO" id="y6G-2Y-cdQ">
+                        <rect key="frame" x="25.5" y="26" width="83" height="105"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$3000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLD-j6-N04">
+                        <rect key="frame" x="8" y="155" width="118" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="File" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sm9-Fu-LL2">
+                        <rect key="frame" x="8" y="176" width="118" height="16"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6TI-8O-ING">
+                        <rect key="frame" x="99" y="8" width="28" height="31"/>
+                        <state key="normal" image="bookmark"/>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="sm9-Fu-LL2" firstAttribute="leading" secondItem="hLD-j6-N04" secondAttribute="leading" id="1on-CN-vbH"/>
+                <constraint firstItem="sm9-Fu-LL2" firstAttribute="top" secondItem="hLD-j6-N04" secondAttribute="bottom" constant="4" id="4Gm-Mg-b4K"/>
+                <constraint firstItem="y6G-2Y-cdQ" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.617188" id="9gO-FT-iDt"/>
+                <constraint firstAttribute="trailing" secondItem="hLD-j6-N04" secondAttribute="trailing" constant="8" id="A6U-jH-jWp"/>
+                <constraint firstItem="y6G-2Y-cdQ" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.534591" id="BSc-TV-nzD"/>
+                <constraint firstAttribute="bottom" secondItem="sm9-Fu-LL2" secondAttribute="bottom" constant="4" id="DIl-Q9-YVP"/>
+                <constraint firstItem="hLD-j6-N04" firstAttribute="top" relation="greaterThanOrEqual" secondItem="y6G-2Y-cdQ" secondAttribute="bottom" constant="8" id="GXa-9F-Hbl"/>
+                <constraint firstAttribute="trailing" secondItem="6TI-8O-ING" secondAttribute="trailing" constant="7" id="KBP-7c-n0x"/>
+                <constraint firstItem="y6G-2Y-cdQ" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="ayx-lY-laF"/>
+                <constraint firstItem="6TI-8O-ING" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="d6o-Ui-L4V"/>
+                <constraint firstItem="6TI-8O-ING" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.134328" constant="10" id="dC9-uU-ewS"/>
+                <constraint firstItem="6TI-8O-ING" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.158163" id="guo-Zn-alv"/>
+                <constraint firstItem="sm9-Fu-LL2" firstAttribute="trailing" secondItem="hLD-j6-N04" secondAttribute="trailing" id="hJU-XU-lv5"/>
+                <constraint firstItem="hLD-j6-N04" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="nXv-yj-DuU"/>
+                <constraint firstItem="y6G-2Y-cdQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="26" id="xXg-5o-NcO"/>
+            </constraints>
+            <size key="customSize" width="134" height="196"/>
+            <connections>
+                <outlet property="bookMarkBtn" destination="6TI-8O-ING" id="TX9-uH-IMB"/>
+                <outlet property="productImageView" destination="y6G-2Y-cdQ" id="Vuv-fg-Z8l"/>
+                <outlet property="productNameLbl" destination="sm9-Fu-LL2" id="b1W-44-1XF"/>
+                <outlet property="productPriceLbl" destination="hLD-j6-N04" id="toB-ID-9ad"/>
+            </connections>
+            <point key="canvasLocation" x="201.44927536231884" y="164.73214285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bookmark" width="25" height="25"/>
+        <image name="netWork" width="134" height="121"/>
+    </resources>
+</document>

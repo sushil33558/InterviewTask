@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-APPeNTUS-APPeNTUSUITests/Pods-APPeNTUS-APPeNTUSUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ANActivityIndicator/ANActivityIndicator.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/PageMenu/PageMenu.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework

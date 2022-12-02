@@ -1,0 +1,6 @@
+framework module Pods_APPeNTUS_APPeNTUSUITests {
+  umbrella header "Pods-APPeNTUS-APPeNTUSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

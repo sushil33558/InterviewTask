@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'APPeNTUS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for APPeNTUS
+
+  target 'APPeNTUSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'APPeNTUSUITests' do
+    # Pods for testing
+  end
+  pod 'Alamofire'
+  pod 'PageMenu'
+  pod 'ANActivityIndicator'
+  pod 'SDWebImage'
+end
